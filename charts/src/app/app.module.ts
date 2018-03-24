@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { ChartjsComponent } from './chartjs/chartjs.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { D3chartComponent } from './d3chart/d3chart.component';
+import { BarChartComponent } from './shared/bar-chart/bar-chart.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ChartjsComponent,
-    D3chartComponent
+    D3chartComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
