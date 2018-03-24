@@ -1,0 +1,8 @@
+<div *ngIf="cities">
+  <button *ngFor="let city of cities" (click)="displayWeatherChart(city.id)">{{city.name}}</button>
+</div>
+
+
+<div *ngIf="chart">
+  <canvas id="canvas">{{ chart }}</canvas>
+</div>
